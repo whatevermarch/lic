@@ -98,7 +98,6 @@ QVector2D FlowVis::getFlowVector(int t, int y, int x)
 void FlowVis::paintGL(const QMatrix4x4& P, const QMatrix4x4& V, int w, int h)
 {
     Cg::OpenGLWidget::paintGL(P, V, w, h);
-
     
     if (_time_cell != _time_cell_in_texture) 
     {

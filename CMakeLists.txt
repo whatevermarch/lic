@@ -1,4 +1,4 @@
-# Copyright (C) 2013, 2014, 2018
+# Copyright (C) 2020
 # Computer Graphics Group, University of Siegen
 # Written by Martin Lambers <martin.lambers@uni-siegen.de>
 #

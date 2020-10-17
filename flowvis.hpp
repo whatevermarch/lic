@@ -9,6 +9,7 @@
 class FlowVis : public Cg::OpenGLWidget
 {
 private:
+
     // Constants describing the flow data set
     static constexpr const char* _filename = "flow.raw";
     static constexpr int _x_cells = 400;
@@ -23,11 +24,14 @@ private:
     static constexpr float _t_start = 15.0f;
     static constexpr float _t_end = 23.0f;
     static constexpr float _t_step = (_t_end - _t_start) / _t_cells;
+
     // The flow data
     QVector<float> _data;
+
     // State
     int _time_cell;
     int _time_cell_in_texture;
+    
     // OpenGL objects
     unsigned int _texture_noise,
         _texture_velocity;
