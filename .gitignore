@@ -355,3 +355,5 @@ build/
 # raw data file
 flow.raw
 
+# Cg framework internally used
+cgbase/
